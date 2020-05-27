@@ -1,0 +1,29 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+}
+
+.card > img {
+	border-radius: 5px 5px 0 0;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.content > p {
+	margin: 5px 0;
+}
+
+.title {
+	font-weight: bold;
+}
+
+.url {
+	color: gray;
+	cursor: pointer;
+}
